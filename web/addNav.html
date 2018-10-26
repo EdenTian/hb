@@ -1,0 +1,54 @@
+
+<script src="modules/fileUpload.js"></script>
+<div id="addNavContent" style="margin: 15px;">
+    <form class="layui-form">
+        <div class="layui-form-item">
+            <label class="layui-form-label">添加礼物</label>
+            <div class="layui-input-block">
+                <input type="text" name="" placeholder="请输入礼物名称" lay-verify="required" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn" id="upload">
+                    <i class="layui-icon">&#xe67c;</i>上传图片
+                </button>
+            </div>
+
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">领取地点</label>
+            <div class="layui-input-block">
+
+                    <select name="address" lay-verify="required">
+                        <option value="1">二办8楼咖啡厅</option>
+                        <option value="2">三办1楼咖啡厅</option>
+                        <option value="3">基因库5楼</option>
+                    </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">库存</label>
+            <div class="layui-input-block">
+                <input type="text" name="" placeholder="请输入库存" lay-verify="required" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">权重</label>
+            <div class="layui-input-block">
+                <input type="text" name="" placeholder="请输入权重" lay-verify="required" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否显示</label>
+            <div class="layui-input-block">
+                <input type="checkbox" name="switch" lay-skin="switch">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="addNav" style="display: none"></button>
+            </div>
+        </div>
+    </form>
+</div>

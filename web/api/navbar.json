@@ -1,0 +1,42 @@
+[
+    {
+        "title": "用户管理",
+        "icon": "&#xe705;",
+        "spread": true,
+        "children": [
+            {
+                "title": "数据统计",
+                "icon": "&#xe641;",
+                "href":"dataCount.html"
+            },
+            {
+                "title": "设置礼物发放人员",
+                "icon": "fa-tags",
+                "href": "tag.html"
+            },
+            {
+                "title": "黑名单管理",
+                "icon": "fa-clipboard",
+                "href": "article.html"
+            },
+            {
+                "title": "法人信息",
+                "icon": "fa-comments-o",
+                "href": "comments.html"
+            }
+        ]
+    },
+    {
+        "title": "礼物管理",
+        "icon": "fa-user-secret",
+        "spread": true,
+        "children": [
+            {
+                "title": "礼品设置",
+                "icon": "fa-certificate",
+                "href":"gift.html"
+            }
+
+        ]
+    }
+]
